@@ -106,4 +106,4 @@ fi
 #
 # vi mode
 bindkey -v
-alias config='/usr/bin/git --git-dir=/home/rs/.cfg/ --work-tree=/home/rs'
+alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
