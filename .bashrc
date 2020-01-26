@@ -121,3 +121,6 @@ set -o vi
 export EDITOR=vim
 export MYVIMRC=~/.vimrc
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+
+# Disable the terminal bell
+bind 'set bell-style none'
